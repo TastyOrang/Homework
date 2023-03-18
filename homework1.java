@@ -16,13 +16,8 @@ public class all {
 		int number4 = number%10000%1000%100/10;
 		int number5 = number%10000%1000%100%10/1;
 		
-		System.out.println(number1);
-		System.out.println(number2);
-		System.out.println(number3);
-		System.out.println(number4);
-		System.out.println(number5);
+		System.out.println(number1+"\n"+number2+"\n"+number3+"\n"+number4+"\n"+number5);
 		
-
 	}
 
 }
