@@ -7,12 +7,11 @@ public class homework3 {
 		Scanner a = new Scanner(System.in);
 		
 		System.out.println("Enter the radius of the circle");
-		double radius = a.nextInt();
+		double radius = a.nextDouble();
 		
-		double lenght = radius*3.14;
+		double lenght = 2*radius*Math.PI;
 		
 		System.out.println("The lenght of circle is "+lenght);
-
 	}
 
 }
